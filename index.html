@@ -14,10 +14,10 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light nav-color">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="images/logo.png" alt="">
+          <img   src="images/logo.png" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,17 +25,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <li class="nav-item ">
+              <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Shoes</a>
+              <a class="nav-link text-white" href="#shoes">Shoes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Bagpack</a>
+              <a class="nav-link text-white" href="#backpack">Backpack</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Subscribe</a>
+              <a class="nav-link text-white" href="#sunscribe">Subscribe</a>
             </li>
 
 
@@ -47,12 +47,12 @@
     <!-- image slider  -->
 
 
-    <section class="container ">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <section id="home" class="container ">
+      <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item p-5 active">
-            <div class="row d-flex align-items-center bg-real bg-gradient">
-              <div class="col-lg-7">
+            <div class="row d-flex align-items-center bg-real bg-gradient p-3 border-radius">
+              <div class="col-lg-7 text-white">
                 <h1>Cool Dude Headphone
                 </h1>
                 <p>This is the best headphone in the world for people who just want to waste time in front of funky
@@ -61,7 +61,7 @@
 
                 </p>
                 <h1>$300</h1>
-                <button class="btn bg-danger">Buy Now</button>
+                <button class="btn-real">Buy Now</button>
 
 
               </div>
@@ -71,8 +71,8 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item p-5">
-            <div class="row d-flex align-items-center  bg-real bg-gradient">
+          <div class="carousel-item p-5 text-white">
+            <div class="row d-flex align-items-center  bg-real bg-gradient p-3 border-radius">
               <div class="col-lg-7">
                 <h1>Cool Dude Headphone
                 </h1>
@@ -82,7 +82,7 @@
 
                 </p>
                 <h1>$400</h1>
-                <buttom class="btn bg-danger">Buy Now</buttom>
+                <buttom class=" btn-real">Buy Now</buttom>
 
               </div>
               <div class="col-lg-5">
@@ -91,8 +91,8 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item p-5">
-            <div class="row d-flex align-items-center bg-real bg-gradient">
+          <div class="carousel-item p-5 text-white">
+            <div class="row d-flex align-items-center bg-real bg-gradient p-3 border-radius">
               <div class="col-lg-7">
                 <h1>Cool Dude Headphone
                 </h1>
@@ -102,7 +102,7 @@
 
                 </p>
                 <h1>$500</h1>
-                <button class="btn btn-real">Buy Now</button>
+                <button class=" btn-real">Buy Now</button>
 
               </div>
               <div class="col-lg-5">
@@ -133,19 +133,20 @@
       <h2></h2>
       <div class="row gy-5">
         <div class="col-lg-4 col-md-6 ">
-          <div class="p-3 border bg-warning d-flex justify-content-center rounded-3 align-items-center">
+          <div style="background-color: rgb(133, 134, 139);border-radius: 10px" class="p-3 border  d-flex justify-content-center rounded-3 align-items-center">
             <h1 class="text-white">Watch</h1>
             <img width="100px" src="images/categories/watch.png" alt="">
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
-          <div class="p-3 border bg-danger  d-flex justify-content-center rounded-3 align-items-center">
+          <div style="background-color: rgb(133, 134, 139);border-radius: 10px" class="p-3 border   d-flex justify-content-center rounded-3 align-items-center">
             <h1 class="text-white">Bag</h1>
             <img width="100px" src="images/categories/bag.png" alt="">
           </div>
         </div>
         <div class="col-lg-4 col-md-6 ">
-          <div class="p-3 border bg-success d-flex justify-content-center align-items-center rounded-3">
+          <div style="background-color: rgb(133, 134, 139);border-radius: 10px"class="p-3 border  d-flex
+           justify-content-center align-items-center rounded-3">
             <h1 class="text-white">Shoes</h1>
             <img width="100px" src="images/categories/shoes.png" alt="">
           </div>
@@ -157,50 +158,53 @@
     <!------------------------------------------------
       ------------------- shoes  ---------------------
     --------------------------------------------------->
-    <section class="container">
-      <h2>Shoes</h2>
+    <section id="shoes" class="container">
+      <h1>Shoes</h1>
       <div class="row row-cols-1 row-cols-md-3 g-4 my-5">
         <div class="col ">
-          <div class="card border-0 shadow-lg h-100">
+          <div style="background-color: rgb(144, 145, 148);border-radius: 10px" class="card border-0 shadow-lg h-100">
             <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Supply 350</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                additionalwith supporting text below as a natural lead-in to
-                additional.</p>
+              <h3 class="card-title">Supply 350</h3>
+              <p class="card-text">soles density, strength, stiffness, hardness, good heat resistance; have good electrical properties and high-frequency insulation from humidity, corrosion Mesh upper
+                Cushioned footbed
+                Textured and patterned outsole</p>
               <h5>$40</h5>
             </div>
             <div class="m-3">
-              <button class="btn btn-real bg-danger">Buy Now</button>
+              <button class="btn-real">Buy Now</button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card border-0 shadow-lg h-100">
+          <div style="background-color: rgb(144, 145, 148);border-radius: 10px"class="card border-0 shadow-lg h-100">
             <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Nike 360</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.with supporting text below as a natural lead-in to
-                additional</p>
+              <h3 class="card-title">Nike 360</h3>
+              <p class="card-text">A pair of grey walking shoes, has regular Styling, lace-ups detail
+                Mesh upper
+                Cushioned footbed
+                Textured and patterned outsoleMesh upper
+                Cushioned footbed
+                Textured and patterned outsole</p>
               <h5>$300</h5>
             </div>
 
             <div class="m-3">
-              <button class="btn btn-real bg-danger">Buy Now</button>
+              <button class="btn-real ">Buy Now</button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card border-0 shadow-lg h-100">
+          <div style="background-color: rgb(144, 145, 148);border-radius: 10px" class="card border-0 shadow-lg h-100">
             <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Red Airmax</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This card has even longer content than the first to show that equal height action.</p>
+              <h3 class="card-title">Red Airmax</h3>
+              <p class="card-text">Carbon rubber is a stiff and heavy material, while blown rubber is lighter-weight, cushioned and flexible. Good running shoes have flex grooves and a split heel. Flex grooves are cut horizontally across the forefront of the outsole</p>
               <h5>$300</h5>
             </div>
             <div class="m-3">
-              <button class="btn btn-real bg-danger">Buy Now</button>
+              <button class=" btn-real">Buy Now</button>
             </div>
           </div>
         </div>
@@ -210,60 +214,60 @@
       ----------------------------------------
        backpack---------------------------- -->
     <section id="backpack" class="container">
-      <h2>Bags</h2>
+      <h1>Bags</h2>
       <div class="row row-cols-1 row-cols-md-3 g-4 my-5">
         <div class="col ">
-          <div class="card border-0 shadow-lg h-100">
+          <div  style="background-color: rgb(144, 145, 148);border-radius: 10px" class="card border-0 shadow-lg h-100">
             <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Red Laltu Bag</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                additional.</p>
+              <h3 class="card-title">Red Danger</h3>
+              <p class="card-text">Clean, clear bottom stiffener. Black bottom stiffeners can be made from a variety of different sources, so quality is inconsistent.  In general, they will tend get brittle and break sooner than the bag wears out, and may contain lead</p>
               <h5>$40</h5>
             </div>
             <div class="m-3">
-              <button class="btn btn-real bg-danger">Buy Now</button>
+              <button class=" btn-real ">Buy Now</button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card border-0 shadow-lg h-100">
+          <div  style="background-color: rgb(144, 145, 148);border-radius: 10px" class="card border-0 shadow-lg h-100">
             <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Blue Niltu Bag</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              <h5>$300</h5>
+              <h3 class="card-title">Blue snowdrop</h3>
+              <p class="card-text">Fabric stiff enough to stand up for loading and unloading. Even with fabric of the same weight, different makers can create a fabric stiffer or softer. Fabric that stands up saves time at check out for you and your customer.</p>
+              <h5>$30</h5>
             </div>
 
             <div class="m-3">
-              <button class="btn btn-real bg-danger">Buy Now</button>
+              <button class="btn-real">Buy Now</button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card border-0 shadow-lg h-100">
+          <div style="background-color: rgb(144, 145, 148); border-radius: 10px;"  class="card border-0 shadow-lg h-100">
             <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Black Kaltu Bag</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This card has even longer content than the first to show that equal height action.</p>
-              <h5>$300</h5>
+              <h3 class="card-title">Black Avengers</h3>
+              <p class="card-text">
+                soles density, strength, stiffness, hardness, good heat resistance; have good electrical properties and high-frequency insulation from humidity, corrosion
+              </p>
+              <h5>$50</h5>
             </div>
             <div class="m-3">
-              <button class="btn btn-real bg-danger">Buy Now</button>
+              <button class="btn-real ">Buy Now</button>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- last para  -->
-    <section style="height: 300px;"
-      class="container d-flex justify-content-center  bg-real align-items-center rounded-3">
+    <section id="subscribe"style="height: 300px;"
+      class="container d-flex justify-content-center  bg-real align-items-center border-radius text-white">
       <div>
         <h1>LET'S STAY IN TOUCH</h1>
         <p>Get updates on sales, specials and more</p>
         <input type="text" name="" id="" placeholder="Your Email"><br>
-        <button id="button"class="btn btn-real bg-danger my-3">Contact Now</button>
+        <button id="button"class=" btn-real  my-3">Contact Now</button>
       </div>
 
     </section>

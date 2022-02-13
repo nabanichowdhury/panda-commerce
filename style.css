@@ -1,8 +1,25 @@
+body{
+    background-color: #cacacf !important;
+}
+.nav-color{
+    background-color: #040e2b69;
+}
+.border-radius{
+    border-radius: 30px !important;
+}
+
 .bg-real{
-    background-color: #fceae8;
+    background-color: #3c4858fa;
 }
 .btn-real{
-    background-image: linear-gradient(rgb(253, 81, 167));
-    border-radius: 8px;
+    background-color: rgba(10, 4, 66, 0.658);
+    border-radius: 5px;
+    padding: 15px;
     border: none;
+    margin-top: 10px;
+    color: aliceblue;
+    
+}
+.blue{
+    background-color: rgb(93, 93, 136) !important;
 }
