@@ -1,0 +1,8 @@
+.bg-real{
+    background-color: #fceae8;
+}
+.btn-real{
+    background-image: linear-gradient(rgb(253, 81, 167));
+    border-radius: 8px;
+    border: none;
+}
